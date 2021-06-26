@@ -2,14 +2,16 @@
 
 
 /**
+ *_isupper - check for uppercase character
+ * @c: the character to test for uppercase
  * main - check the code for Holberton School students.
  *
- * Return: Always 0.
+ * Return: 1 if is uppercase, 0 if otherwise.
  */
 int _isupper(int c)
 {
-    if ((c >= 'A') && (c <= 'Z'))
-        return(1);
-    else
-        return(0);
+if ((c >= 'A') && (c <= 'Z'))
+return (1);
+else
+return (0);
 }
